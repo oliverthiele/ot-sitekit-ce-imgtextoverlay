@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file source-language="en" datatype="plaintext"
+		  original="EXT:ot_sitekitceimgtextoverlay/Configuration/Sets/OtSitekitceimgtextoverlay/labels.xlf"
+		  date="2025-07-15T14:30:00Z" product-name="ot-sitekit-ce-imgtextoverlay">
+		<header/>
+		<body>
+			<trans-unit id="label">
+				<source><![CDATA[Content Element: Image with text overlay]]></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
