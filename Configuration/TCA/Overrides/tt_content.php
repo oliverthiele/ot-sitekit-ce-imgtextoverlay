@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
 
 defined('TYPO3') or die();
@@ -25,7 +27,7 @@ $GLOBALS['TCA']['tt_content']['types'][$key] = [
         ',
 ];
 
-$GLOBALS['TCA']['tt_content']['types'][$key]['columnsOverrides']['bodytext']['config']['enableRichtext']  = 1;
+$GLOBALS['TCA']['tt_content']['types'][$key]['columnsOverrides']['bodytext']['config']['enableRichtext'] = 1;
 
 ExtensionManagementUtility::addToAllTCAtypes(
     'tt_content',

@@ -1,13 +1,13 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['ot_sitekitceimgtextoverlay'] = [
     'title' => 'CE Image with text overlay',
     'description' => '',
     'category' => 'frontend',
     'author' => 'Oliver Thiele',
     'author_email' => 'mail@oliver-thiele.de',
-    'state' => 'stable',
     'author_company' => 'Web Development Oliver Thiele',
+    'state' => 'stable',
     'version' => '1.0.0',
     'constraints' =>
         [
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = [
                 [
                     'typo3' => '13.4.0-13.4.99',
                     'ot_sitekitbase' => '*',
-                    'ot_irrebuttons' => '3.2.0-3.2.99'
+                    'ot_irrebuttons' => '3.2.2-3.2.99',
                 ],
             'conflicts' =>
                 [],
