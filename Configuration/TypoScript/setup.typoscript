@@ -16,7 +16,7 @@ tt_content.ot_sitekitceimgtextoverlay {
   dataProcessing {
     10 = files
     10 {
-      as = icons
+      as = images
       references.fieldName = assets
       references.table = tt_content
     }

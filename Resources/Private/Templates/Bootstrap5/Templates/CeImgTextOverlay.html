@@ -5,8 +5,10 @@
     <div id="ce{data.uid}" class="ot-content-element-margin-bottom ot-sitekit-ce-imgtextoverlay position-relative">
         <span class="anchor" id="c{data.uid}"></span>
         <div class="ot-sitekit-ce-imgtextoverlay-bg-image">
-            <f:if condition="{icons.0}">
-                <f:image image="{icons.0}" class="img-fluid" loading="lazy" maxWidth="1296"/>
+            <f:if condition="{images.0}">
+                <skc:atom.image image="{images.0}" class="img-fluid"
+                                showCaption="false"
+                                loading="lazy" />
             </f:if>
         </div>
         <div class="ot-sitekit-ce-imgtextoverlay-overlay">
