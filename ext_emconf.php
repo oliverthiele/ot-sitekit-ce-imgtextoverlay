@@ -8,7 +8,7 @@ $EM_CONF['ot_sitekitceimgtextoverlay'] = [
     'author_email' => 'mail@oliver-thiele.de',
     'author_company' => 'Web Development Oliver Thiele',
     'state' => 'stable',
-    'version' => '1.0.1',
+    'version' => '1.0.2',
     'constraints' =>
         [
             'depends' =>
