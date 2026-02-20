@@ -1,0 +1,4 @@
+elements:
+  - ctype: ot_sitekitceimgtextoverlay
+    groups: [group_content_wide]
+    grid: { minCols: 12, requiresFullWidth: false }
