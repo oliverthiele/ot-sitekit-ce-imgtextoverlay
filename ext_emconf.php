@@ -2,13 +2,13 @@
 
 $EM_CONF['ot_sitekitceimgtextoverlay'] = [
     'title' => 'CE Image with text overlay',
-    'description' => '"TYPO3 content element that displays an image with text overlay. Integrates with the Sitekit and ot-irrebuttons extensions.',
+    'description' => 'TYPO3 content element that displays an image with text overlay. Integrates with the Sitekit and ot-irrebuttons extensions.',
     'category' => 'frontend',
     'author' => 'Oliver Thiele',
     'author_email' => 'mail@oliver-thiele.de',
     'author_company' => 'Web Development Oliver Thiele',
     'state' => 'stable',
-    'version' => '1.0.2',
+    'version' => '1.0.3',
     'constraints' =>
         [
             'depends' =>
